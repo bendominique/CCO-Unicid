@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2</title><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="screen-elements">
+    <header class="header-page-name">
+        <h2> MeuProduto </h2>
+    </header>
+    <main class="general-container">
+        <div class="blue-content">
+            <h1> Sua Landing Page no Tamanho Perfeito </h2>
+            <h2> O fundo ocupa todo o viewport </h3>
+            <button id="button" type="button" onclick="alert('Seja bem vindo ao seu produto!')"> Testar Agora </button>
+        </div>
+        <div class="red-content">
+            <h3> Por que funciona? </h3>
+            <article class="elements-boxes">
+                <section class="viewport">
+                    <h4>1. Viewport Total </h4>
+                    <p> Os fundos coloridos se adaptam a qualquer monitor de PC ou TV.</p>
+                </section>
+                <section class="fixed-container">
+                        <h4>2. Container Fixo</h4>
+                        <p> O conteúdo nunca se estica demais em telas grandes. </p>
+                </section>
+                <section class="responsive">
+                    <h4>3. Responsivo</h4>
+                    <p> Em celulares, o padding impede que o texto enconste nas bordas.</p>
+                </section>
+            </article>
+        </div> 
+        <footer class="black-content">
+        <p>© 2026 MeuProduto. Todos os direitos reservados.</p>
+    </footer>
+    </main>
+   
+</body>
+</html>
