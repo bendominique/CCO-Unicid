@@ -1,0 +1,102 @@
+:root {
+    --border-dourada-cima: 2px solid #efd8a8;
+    --border-dourada-baixo: 2px solid #f7cb6d;
+    --background-pagina: #fff2ea;
+    --cor-footer: #5d5d5d;
+}
+
+
+.body-pagina {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nome-academia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 45px;
+    border-top: var(--border-dourada-cima);
+    border-bottom: var(--border-dourada-baixo);
+}
+
+.titulo-letra-cursiva {
+    font-family: 'Tangerine', cursive;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+}
+
+.conteudo-pagina {
+    width: 63.5%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5%;
+    background-color: var(--background-pagina);
+}
+
+.conteudo-principal {
+    margin-left: -100px;
+}
+
+.conteudo-principal img{
+    height: 350px;
+    width: 200px;
+}
+
+.img3{
+    position: absolute;
+    right: 0;
+    margin-right: 26.5%;
+}
+
+.conteudo-principal h3 {
+    font-weight: 500;
+}
+
+.conteudo-subtitulo img {
+    width: 25%
+}
+
+.conteudo-subtitulo h3 {
+    font-weight: 400;
+    margin: 2.5%;
+    width: 35%;
+    text-wrap: wrap;
+}
+
+.conteudo-subtitulo {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 2.5%;
+}
+
+.img-peso-academia img {
+    height: 65%;
+    width: 180px;
+}
+
+.img-peso-academia {
+    height: 85%;
+    width: 30%;
+    position: absolute;
+    margin-left: 465px;
+    margin-top: -12%;
+
+}
+
+footer{
+    width: 63%;
+    margin-top: 1%;
+    height: 5%;
+    justify-content: center;
+    display: flex;
+    border-top: var(--border-dourada-cima);
+    color: var(--cor-footer)
+}
