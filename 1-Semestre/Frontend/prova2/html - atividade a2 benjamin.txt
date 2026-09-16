@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rouge+Script&family=Tangerine:wght@400;700&display=swap"
+        rel="stylesheet">
+    <title>Atividade N2</title>
+</head>
+
+<body class="body-pagina">
+    <header class="nome-academia">
+        <h1> Evo </h1>
+    </header>
+    <main class="conteudo-pagina">
+        <section class="titulo-letra-cursiva">
+            <h1> Kit para Derrotar a <br> Sazoniedade <br> nas Academias </h1>
+        </section>
+        <section class="conteudo-subtitulo">
+            <img src="../img/pesoacademia1.jpg" />
+            <h3> Dicas de Ferramentas para sua academia, estúdio ou box <br> LUCRAR mesmo no período de baixa</h3>
+            <img src="../img/pesoacademia2.jpg" />
+        </section>
+        <section class="conteudo-principal">
+
+            <div class="img3">
+                <img src="../img/pesoacademia3.jpg" />
+            </div>
+
+            <h3> "O frio e as férias do meio do ano estão chegando e se você <br>
+                ainda não começou a preparar a sua acemia para isso, é bom<br>
+                correr!"
+            </h3>
+            <h3> <strong> Mas você não está sozinho </strong></h3>
+
+            <ul>
+
+
+
+                <li>
+                    <p>
+                        "Preparamos um Kit completo para te ajudar a não deixar o movimento <br>
+                        diminuir no seu negócio e ainda conseguir LUCRAR mais neste período.<br>
+                        Com este kit você vai.";
+                    </p>
+                </li>
+
+
+
+                <li>
+                    <p>
+                        Aprender ações práticas para manter o movimento na academia nos <br>
+                        períodos de baixa;
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Ter condições de executar campanhas bem estruturadas;
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Descobrur que é possível lucrar nas épocas mais díficeis do ano;
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        E muito mais!.
+                    </p>
+                </li>
+            </ul>
+
+        </section>
+    </main>
+    <footer>
+        <h4> Transformando a baixa temporada na melhor época para o seu negócio crescer. </h4>
+    </footer>
+</body>
+
+</html>
