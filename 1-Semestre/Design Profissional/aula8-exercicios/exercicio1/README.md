@@ -4,7 +4,7 @@
 
 ### Exercício 1 - Aqui está nos ensinando a utilizar o system.in e system.output, mas aqui você aprende além, e se pudéssemos usar arrays?
 
-![primeira img de cria](./imagem-ex1.png)
+![primeira img de cria](./imgs/imagem-ex1.png)
 
 ```
 Explain dos amigos:
@@ -37,6 +37,34 @@ public class Solution {
 }
  ```
 
-_olha o chatão do compiler falando que não pode >: blébléblébléblé_
+_olha o chatão do compiler no hackerrank falando que não pode >: blébléblébléblé_
 
-![img do chatão](./chataoimg1.png)
+![img do chatão](./imgs/chataoimg1.png)
+
+_resolução do chato_
+![img resolução do chatão](./imgs/resolucaodochatao1.png)
+
+```
+Explain do chato: 
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int myInts[] = new int[3];
+            int a = scan.nextInt();
+          
+            int b = scan.nextInt();
+         
+            int c = scan.nextInt();
+        
+        
+        System.out.println("" + a);
+        System.out.println("" + b);
+        System.out.println("" + c);
+       
+    }
+}
+
+```
